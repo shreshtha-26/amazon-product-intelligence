@@ -13,6 +13,8 @@ CREATE TABLE products_dim (
     category VARCHAR(255)
 );
 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
 CREATE TABLE pricing_fact (
     pricing_id INT AUTO_INCREMENT PRIMARY KEY,
     product_id VARCHAR(50),
@@ -25,7 +27,8 @@ CREATE TABLE pricing_fact (
     FOREIGN KEY (product_id)
         REFERENCES products_dim(product_id)
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------
+ 
 CREATE TABLE reviews_fact (
     review_id INT AUTO_INCREMENT PRIMARY KEY,
     product_id VARCHAR(50),
