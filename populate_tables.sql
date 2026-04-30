@@ -8,6 +8,8 @@ SELECT DISTINCT
     category
 FROM amazon_products;
 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
 INSERT INTO pricing_fact (
     product_id,
     actual_price,
@@ -24,6 +26,8 @@ SELECT
     ROUND(price_gap, 2),
     discount_bucket
 FROM amazon_products;
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
 
 INSERT INTO reviews_fact (
     product_id,
