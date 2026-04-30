@@ -122,7 +122,6 @@ Generated actionable recommendations for:
 
 ## 📊 Dashboard Preview
 
-> Upload dashboard screenshot here: `amazon_product_intelligence_dashboard.png`
 
 ![Dashboard Screenshot](amazon_product_intelligence_dashboard.png)
 
